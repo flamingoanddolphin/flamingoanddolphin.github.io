@@ -1,0 +1,40 @@
+/* Overrides for small screens to reduce left/right padding */
+@media (max-width: 768px) {
+  .portfolio-page .slide-slogan .slogan .slogan-description {
+    padding: 0 8% !important;
+  }
+  .portfolio-page .inner-content {
+    width: 96% !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    max-width: 100% !important;
+  }
+  /* Reduce large horizontal paddings elsewhere if needed */
+  .portfolio-page .slide-features .row,
+  .portfolio-page .slide-testimonial .row {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  /* Wider contact form inputs and textarea for better mobile usability */
+  .portfolio-page .slide-map .contact-form {
+    margin: 30px 12px !important;
+  }
+  .portfolio-page .slide-map .contact-form .form-control {
+    display: block;
+    width: 100% !important;
+    max-width: 460px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+  .portfolio-page .slide-map .contact-form textarea.form-control {
+    min-height: 180px !important;
+  }
+  .portfolio-page .slide-map .contact-form .btn {
+    width: 160px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+  }
+}
